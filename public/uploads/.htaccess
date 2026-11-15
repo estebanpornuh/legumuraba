@@ -1,0 +1,4 @@
+# Los archivos subidos nunca se ejecutan como PHP
+<FilesMatch "\.(php|phtml|phar)$">
+  Require all denied
+</FilesMatch>
